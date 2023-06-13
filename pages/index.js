@@ -1,9 +1,7 @@
+import HomePage from "@/components/template/HomePage";
+
 function Index() {
-  return (
-    <div>
-      <h1>Todo App</h1>
-    </div>
-  );
+  return <HomePage />;
 }
 
 export default Index;
