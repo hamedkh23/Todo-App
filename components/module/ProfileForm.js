@@ -1,12 +1,12 @@
-function ProfileForm(
+function ProfileForm({
   name,
   lastName,
   password,
   setName,
   setLastName,
   setPassword,
-  submitHandler
-) {
+  submitHandler,
+}) {
   return (
     <>
       <div className="profile-form__input">
