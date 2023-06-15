@@ -22,7 +22,6 @@ function SignupPage() {
       headers: { "Content-Type": "application/json" },
     });
     const data = await res.json();
-    console.log(data);
     if (data.status === "success") router.push("/signin");
   };
 
